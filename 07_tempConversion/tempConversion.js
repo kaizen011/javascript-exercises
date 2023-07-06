@@ -1,5 +1,6 @@
 const convertToCelsius = function(number) {
   let cels = Math.round((number - 32) * (5/9) * 10) / 10;
+  
   return cels;
 };
 
